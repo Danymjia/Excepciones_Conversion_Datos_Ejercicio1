@@ -25,15 +25,15 @@ public class Calcular {
     }
 
     public double calcularAltura(double tiempo) {
-
-        // Convercion a radianes
+        // Convercion del angulo a radianes
         double radianes = Math.toRadians(angulo);
 
         // Calcular la componente vertical de la velocidad inicial
         double Y = velocidadInicial * Math.sin(radianes);
 
-        // Usar la fórmula de altura
+        // Calcular la altura usando la fórmula:
         double altura = (Y * tiempo) + (0.5 * (-9.8) * Math.pow(tiempo, 2));
+        altura = Math.round(altura * 100.0) / 100.0;
         return altura;
     }
 }
