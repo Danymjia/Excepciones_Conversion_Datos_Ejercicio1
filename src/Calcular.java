@@ -36,4 +36,14 @@ public class Calcular {
         altura = Math.round(altura * 100.0) / 100.0;
         return altura;
     }
+    public void conversiones(){
+        System.out.println("\n\t----------CONVERSION DE UNIDADES------------\n");
+        System.out.println("DECIMAL-ENTERO");
+        double numeroDecimal = getVelocidadInicial();
+        int numeroEntero = (int) numeroDecimal;
+        System.out.println("el numero inicial es: " + numeroDecimal);
+        System.out.println("el numero entero es: " + numeroEntero);
+
+
+    }
 }

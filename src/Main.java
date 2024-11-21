@@ -27,6 +27,8 @@ public class Main {
 
                 System.out.println("La altura a los " + tiempo + " segundos es: " + altura + " m");
                 datosValidos = true;
+                calcular.conversiones();
+
             } catch (InputMismatchException exception) {
                 // Detectamos si el usuario ingresa algo no numérico.
                 System.out.println("Error: Por favor, ingrese un número válido.");
