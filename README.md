@@ -1,9 +1,3 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
-
 # 🚀 Calculadora de Altura de Proyectiles
 
 Una aplicación en Java que permite calcular la altura de un objeto lanzado en función de su velocidad inicial, ángulo de lanzamiento y tiempo transcurrido. Ideal para estudiantes y entusiastas de la física que desean explorar el movimiento parabólico de una manera práctica.
