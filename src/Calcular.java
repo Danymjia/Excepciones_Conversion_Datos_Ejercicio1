@@ -41,8 +41,8 @@ public class Calcular {
         System.out.println("DECIMAL-ENTERO");
         double numeroDecimal = getVelocidadInicial();
         int numeroEntero = (int) numeroDecimal;
-        System.out.println("el numero inicial es: " + numeroDecimal);
-        System.out.println("el numero entero es: " + numeroEntero);
+        System.out.println("la velocidad inicial es: " + numeroDecimal);
+        System.out.println("la conversion es: " + numeroEntero);
 
 
     }
