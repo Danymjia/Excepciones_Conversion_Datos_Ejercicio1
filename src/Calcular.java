@@ -41,13 +41,13 @@ public class Calcular {
         System.out.println("DECIMAL-ENTERO");
         double numeroDecimal = getVelocidadInicial();
         int numeroEntero = (int) numeroDecimal;
-        double numerDecima = getAngulo();
-        int numeroAngulo = (int) numerDecima;
-
         System.out.println("la velocidad inicial es: " + numeroDecimal);
-        System.out.println("la angulo es: " + numeroAngulo);
         System.out.println("la conversion de velocidad es: " + numeroEntero);
-        System.out.println("la conversion del angulo es: " + numeroAngulo);
+        double numeroDecima = getAngulo();
+        int numeroEnter = (int) numeroDecima;
+        System.out.println("la angulo es: " + numeroDecima);
+        System.out.println("la conversion del angulo es : " + numeroEnter);
+
 
 
 
